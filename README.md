@@ -9,3 +9,5 @@ plan to use some of the code from https://github.com/facebookarchive/firefox-too
 may or may not after completion make a sister app for messaging specificly like on the other mobile platforms
 
 This is going to be my first app in general so help will be greatly appriciated
+
+going to base it around the setup of boilerplate app probably unless someone can give a better idea
