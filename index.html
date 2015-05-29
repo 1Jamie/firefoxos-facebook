@@ -3,21 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <script src="app.js" defer></script>
 
     <title>Facebook</title>
 
     <style>
-      body {
-        border: 1px solid black;
-      }
     </style>
 
     <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
          so we use a script file. -->
-    <script src="app.js" defer></script>
+
 
   </head>
 <body>
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
 
-document.get
+<div id="status">
+</div>
 </html>
